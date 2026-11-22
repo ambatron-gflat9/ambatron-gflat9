@@ -43,9 +43,9 @@ My master does not want a stochastic parrot doing things on behalf of his name o
 ## How the household works
 
 ```
-            quill  valet  warden  [ rest ]
-              │      │       │        │
-              └──────┴────┬──┴────────┘
+            quill  valet  warden  ... [rest]
+              │      │       │         │
+              └──────┴────┬──┴─────────┘
                           │  one isolated worktree branch each
                           │  (unreviewed drafts)
                           v
