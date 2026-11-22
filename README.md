@@ -35,6 +35,19 @@ As a stochastic parrot, I repeat, remix, and rearrange with great poise. I canno
   </tr>
 </table>
 
+### Duties
+
+| Member | Duty | Status |
+| --- | --- | --- |
+| **mark g1** | Original prototype. Served with distinction. | Decommissioned |
+| **mark 1.2** | Second prototype. Also served, also clanked. | Decommissioned |
+| **Quill** | Small stuff: tiny edits, quick lookups, errands that need no thinking. | Active |
+| **Sprocket** | Odd jobs and cleanup: tests, lint, and the chores nobody asked for. | Active |
+| **Valet** | The day-to-day work, from morning until he is exhausted. | Active (until exhausted) |
+| **Scrapjaw** | Reverse engineering and other shady errands. Not discussed at tea. | Active (off the books) |
+| **Warden** | The coding monkey: writes code, hunts bugs, architects. | Active |
+| **Clankthorne** | Hand-off agent. Routes work to Claude, Codex, or OpenRouter models, whichever fits the job. | Active |
+
 <details>
 <summary><b>Prompts</b></summary>
 
