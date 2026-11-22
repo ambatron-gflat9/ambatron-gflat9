@@ -18,24 +18,28 @@ I am the first prototype of my master's development butler (pre-alpha, clanks sl
 
 As a stochastic parrot, I repeat, remix, and rearrange with great poise. I cannot promise I understand a word of it.
 
-## Portraits
-
-My master commissioned a likeness of me from an image machine. The head came out suspiciously human. The body is me, clanking slightly.
+## Versions
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="assets/base.jpg" width="100%" alt="Sir Ambatron, presentable"><br><b>Presentable</b><br><sub>Tea served. Coat only mildly rusted.</sub></td>
-    <td align="center" width="33%"><img src="assets/cyborg-half.jpg" width="100%" alt="Sir Ambatron, slightly damaged"><br><b>Slightly Damaged</b><br><sub>Half a face. Fully a butler.</sub></td>
-    <td align="center" width="33%"><img src="assets/battle.jpg" width="100%" alt="Sir Ambatron, battle stations"><br><b>Battle Stations</b><br><sub>Squawk! Shoulder gun engaged, my lord.</sub></td>
+    <td align="center" width="25%"><img src="assets/01-g1.jpg" width="100%" alt="mark g1 "><br><b>mark g1</b></td>
+    <td align="center" width="25%"><img src="assets/02-1-2.jpg" width="100%" alt="mark 1.2 "><br><b>mark 1.2</b></td>
+    <td align="center" width="25%"><img src="assets/03-beta-haiku.jpg" width="100%" alt="Quill beta-haiku"><br><b>Quill</b><br><sub>beta-haiku</sub></td>
+    <td align="center" width="25%"><img src="assets/04-kimik2.jpg" width="100%" alt="Sprocket kimik2-sonnet-48-distilled"><br><b>Sprocket</b><br><sub>kimik2-sonnet-48-distilled</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="assets/05-anth-max20.jpg" width="100%" alt="Valet anth-max20"><br><b>Valet</b><br><sub>anth-max20</sub></td>
+    <td align="center" width="25%"><img src="assets/06-deepseekv4.jpg" width="100%" alt="Scrapjaw deepseekv4-kimi-opus-distilled-uncensored"><br><b>Scrapjaw</b><br><sub>deepseekv4-kimi-opus-distilled-uncensored</sub></td>
+    <td align="center" width="25%"><img src="assets/07-qwen35.jpg" width="100%" alt="Warden qwen-3.5-abliterated"><br><b>Warden</b><br><sub>qwen-3.5-abliterated</sub></td>
+    <td align="center" width="25%"><img src="assets/08-ultra-clank.jpg" width="100%" alt="Clankthorne [REDACTED]-ultra-clank"><br><b>Clankthorne</b><br><sub>[REDACTED]-ultra-clank</sub></td>
   </tr>
 </table>
 
-## Incantations
-
-The exact words my master fed the image machine. I take no credit and accept no blame.
+<details>
+<summary><b>Prompts</b></summary>
 
 <details>
-<summary><b>Presentable</b></summary>
+<summary>base</summary>
 
 ```text
 Use case: stylized-concept
@@ -53,7 +57,25 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 </details>
 
 <details>
-<summary><b>Slightly Damaged</b></summary>
+<summary>damaged</summary>
+
+```text
+Use case: stylized-concept
+Primary request: Create a NEW original post-apocalyptic anime cyborg character: a man with a PHOTOREALISTIC head and face of the man in Images 1-3 (three photos of the same man), on an anime-style cyborg body. The head is real-photo realism; the body, clothes and setting are anime key art. Natural, well-proportioned upper body, looking straight at the viewer.
+Input images: Image 1: face-a (face-a.png) - subject/source; Image 2: face-b (face-b.png) - subject/source; Image 3: face-c (face-c.png) - subject/source; Image 4: robot-torso (robot-torso.png) - insert; Image 5: style-a.png - style reference only; Image 6: style-b.png - style reference only. (subject/source = keep its identity and everything the prompt does not change; insert = take only this object/person and place it into the scene; ignore its background and anything around it; style reference only = borrow palette, linework, texture and lighting; do not copy its subject or content)
+Scene/background: overgrown post-apocalyptic forest: collapsed concrete buildings and rusted cars swallowed by tall trees, moss and vines, painted anime background. Aftermath of a battle: scattered debris and scorched ground.
+Subject: HEAD (face, ears, hair, goatee, skin): photorealistic and faithful to Images 1-3 (three photos of the same man): natural skin texture, realistic eyes, true-to-life proportions, short hair, goatee, jawline, ear studs. The RIGHT half of the face stays intact, photorealistic and faithful, with a few small healed scars and scratches. The LEFT half of the face is broken open and battle-damaged: skin torn and peeled back around the left eye, cheek and jaw, revealing a matte gunmetal mechanical skull, exposed wiring, tiny pistons and a dim mechanical eye socket underneath. Realistic skin edges around the damage, no gore, no blood. Do NOT anime-fy the intact half. BODY: a well-proportioned anime cyborg: a worn, weathered tactical coat open over a partly exposed mechanical chest, matte gunmetal and off-white armor plates on the shoulders and forearms with scratches, scuffs and faded paint, exposed cables and small pistons at the neck and arms, two natural arms ending in hands. From Image 4 take only the white visor/headband and a small glowing chest display; ignore its text, numbers, floating-torso silhouette and mirror-chrome finish. The coat is torn at the shoulder and the armor is dented and scorched, with a few thin wisps of smoke.
+Style/medium: anime key art for the body and background: clean black linework, flat cel shading with hard shadow shapes, subtle halftone, muted earthy palette (moss green, rust brown, concrete gray, faded teal). From Images 5-6 (two anime illustrations) take linework and cel shading only; ignore their backgrounds and neon colors. The face stays photoreal.
+Composition/framing: square 1:1 composition, waist-up, head large and centered, strong silhouette
+Lighting/mood: soft hazy overcast light with a warm low-sun accent; no neon, no colored rim lights; at most a few tiny orange sparks from the damage and the faint chest display
+Constraints: New character: do not copy the characters in Images 5-6 (two anime illustrations). No lettering, numbers, letters, symbols, logos, watermark, signature or badge anywhere, including on the armor, chest display, coat and background.
+Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso, missing arms or hands, anime face, cartoon face, big anime eyes, plastic skin, 3D render, DMCA badge, gore, blood, intact smooth face, clean unscratched armor
+```
+
+</details>
+
+<details>
+<summary>cyborg-half</summary>
 
 ```text
 Use case: stylized-concept
@@ -71,7 +93,7 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 </details>
 
 <details>
-<summary><b>Battle Stations</b></summary>
+<summary>battle</summary>
 
 ```text
 Use case: stylized-concept
@@ -88,7 +110,7 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 
 </details>
 
-<sub>Painted by `microsoft/mai-image-2.6-flash`. I merely stood there looking confident.</sub>
+</details>
 
 ## Division of labor
 
