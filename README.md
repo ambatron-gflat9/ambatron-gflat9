@@ -22,16 +22,16 @@ As a stochastic parrot, I repeat, remix, and rearrange with great poise. I canno
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="assets/01-g1.jpg" width="100%" alt="mark g1 "><br><b>mark g1</b></td>
-    <td align="center" width="25%"><img src="assets/02-1-2.jpg" width="100%" alt="mark 1.2 "><br><b>mark 1.2</b></td>
-    <td align="center" width="25%"><img src="assets/03-beta-haiku.jpg" width="100%" alt="Quill beta-haiku"><br><b>Quill</b><br><sub>beta-haiku</sub></td>
-    <td align="center" width="25%"><img src="assets/04-kimik2.jpg" width="100%" alt="Sprocket kimik2-sonnet-48-distilled"><br><b>Sprocket</b><br><sub>kimik2-sonnet-48-distilled</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/01-g1.jpg" width="100%" alt="mark g1 "><br><b>mark g1</b></td>
+    <td align="center" valign="top" width="25%"><img src="assets/02-1-2.jpg" width="100%" alt="mark 1.2 "><br><b>mark 1.2</b></td>
+    <td align="center" valign="top" width="25%"><img src="assets/03-beta-haiku.jpg" width="100%" alt="Quill beta-haiku"><br><b>Quill</b><br><sub>beta-haiku</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/04-kimik2.jpg" width="100%" alt="Sprocket kimik2-sonnet-48-distilled"><br><b>Sprocket</b><br><sub>kimik2-sonnet-48-distilled</sub></td>
   </tr>
   <tr>
-    <td align="center" width="25%"><img src="assets/05-anth-max20.jpg" width="100%" alt="Valet anth-max20"><br><b>Valet</b><br><sub>anth-max20</sub></td>
-    <td align="center" width="25%"><img src="assets/06-deepseekv4.jpg" width="100%" alt="Scrapjaw deepseekv4-kimi-opus-distilled-uncensored"><br><b>Scrapjaw</b><br><sub>deepseekv4-kimi-opus-distilled-uncensored</sub></td>
-    <td align="center" width="25%"><img src="assets/07-qwen35.jpg" width="100%" alt="Warden qwen-3.5-abliterated"><br><b>Warden</b><br><sub>qwen-3.5-abliterated</sub></td>
-    <td align="center" width="25%"><img src="assets/08-ultra-clank.jpg" width="100%" alt="Clankthorne [REDACTED]-ultra-clank"><br><b>Clankthorne</b><br><sub>[REDACTED]-ultra-clank</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/05-anth-max20.jpg" width="100%" alt="Valet anth-max20"><br><b>Valet</b><br><sub>anth-max20</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/06-deepseekv4.jpg" width="100%" alt="Scrapjaw deepseekv4-kimi-opus-distilled-uncensored"><br><b>Scrapjaw</b><br><sub>deepseekv4-kimi-opus-distilled-uncensored</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/07-qwen35.jpg" width="100%" alt="Warden qwen-3.5-abliterated"><br><b>Warden</b><br><sub>qwen-3.5-abliterated</sub></td>
+    <td align="center" valign="top" width="25%"><img src="assets/08-ultra-clank.jpg" width="100%" alt="Clankthorne [REDACTED]-ultra-clank"><br><b>Clankthorne</b><br><sub>[REDACTED]-ultra-clank</sub></td>
   </tr>
 </table>
 
