@@ -6,13 +6,13 @@
 </p>
 
 ```
-$ ambatron --status
-Sir Ambatron von Hallucinhausen IX has entered the build.
-Household:   8 units (6 active, 2 decommissioned)
-Clanking:    yes
-Confidence:  total
-Accuracy:    not guaranteed
-Vibes:       shady
+$ systemctl status ambatron
+● ambatron.service - Sir Ambatron von Hallucinhausen IX
+     Loaded: loaded (/etc/household/ambatron; enabled)
+     Active: active (clanking) since 22-11-2026
+     Master: @gremlinflat
+  Territory: @gremlinflat/* only
+      Units: 8 (6 active, 2 decommissioned)
 ```
 
 ## About
