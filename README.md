@@ -43,23 +43,23 @@ My master does not want a stochastic parrot doing things on behalf of his name o
 ## How the household works
 
 ```
-            quill  valet  warden  ... [rest]
-              │      │       │         │
-              └──────┴────┬──┴─────────┘
-                          │  one isolated worktree branch each
-                          │  (unreviewed drafts)
-                          v
-          ┌───────────────────────────────┐
-          │         MASTER'S GATE         │
-          │ @gremlinflat reviews by hand  │
-          └───┬───────────────────────┬───┘
-              │ pass                  │ fail
-              v                       v
- ┌────────────────────────┐     stays a branch
- │    commit on master    │
- │    + swarm consensus   │
- │   (under my own name)  │
- └────────────────────────┘
+            quill  valet  warden  ...  [rest]
+              │      │       │     │      │
+              └──────┴───────┼─────┴──────┘
+                             │  one isolated worktree branch each
+                             │  (unreviewed drafts)
+                             v
+             ┌───────────────────────────────┐
+             │         MASTER'S GATE         │
+             │ @gremlinflat reviews by hand  │
+             └───┬───────────────────────┬───┘
+                 │ pass                  │ fail
+                 v                       v
+    ┌────────────────────────┐     stays a branch
+    │    commit on master    │
+    │    + swarm consensus   │
+    │   (under my own name)  │
+    └────────────────────────┘
 ```
 
 Branches are unreviewed drafts. Only what passes the gate counts, and nothing reaches master on a clanker's word alone.
