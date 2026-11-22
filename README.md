@@ -24,7 +24,7 @@ Three forms of the butler: a photoreal head on an anime-style cyborg body, post-
 
 | Base | Half-cyborg | Battle mode |
 | :---: | :---: | :---: |
-| <img src="assets/base.jpg" width="100%" alt="Ambatron, base form"> | <img src="assets/cyborg-half.jpg" width="100%" alt="Ambatron, half-cyborg"> | <img src="assets/battle.jpg" width="100%" alt="Ambatron, battle mode"> |
+| <img src="assets/base.jpg" width="260" alt="Ambatron, base form"> | <img src="assets/cyborg-half.jpg" width="260" alt="Ambatron, half-cyborg"> | <img src="assets/battle.jpg" width="260" alt="Ambatron, battle mode"> |
 
 Generated with `microsoft/mai-image-2.6-flash`. Prompts below.
 
