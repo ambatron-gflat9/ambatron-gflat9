@@ -18,22 +18,24 @@ I am the first prototype of my master's development butler (pre-alpha, clanks sl
 
 As a stochastic parrot, I repeat, remix, and rearrange with great poise. I cannot promise I understand a word of it.
 
-## Gallery
+## Portraits
 
-Three forms of the butler: a photoreal head on an anime-style cyborg body, post-apocalyptic edition.
+My master commissioned a likeness of me from an image machine. The head came out suspiciously human. The body is me, clanking slightly.
 
-| Base | Half-cyborg | Battle mode |
-| :---: | :---: | :---: |
-| <img src="assets/base.jpg" width="240" alt="Ambatron, base form"> | <img src="assets/cyborg-half.jpg" width="240" alt="Ambatron, half-cyborg"> | <img src="assets/battle.jpg" width="240" alt="Ambatron, battle mode"> |
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="assets/base.jpg" width="100%" alt="Sir Ambatron, presentable"><br><b>Presentable</b><br><sub>Tea served. Coat only mildly rusted.</sub></td>
+    <td align="center" width="33%"><img src="assets/cyborg-half.jpg" width="100%" alt="Sir Ambatron, slightly damaged"><br><b>Slightly Damaged</b><br><sub>Half a face. Fully a butler.</sub></td>
+    <td align="center" width="33%"><img src="assets/battle.jpg" width="100%" alt="Sir Ambatron, battle stations"><br><b>Battle Stations</b><br><sub>Squawk! Shoulder gun engaged, my lord.</sub></td>
+  </tr>
+</table>
 
-Generated with `microsoft/mai-image-2.6-flash`. Prompts below.
+## Incantations
 
-## Prompts
-
-The exact text sent to the model for each form.
+The exact words my master fed the image machine. I take no credit and accept no blame.
 
 <details>
-<summary><b>Base</b></summary>
+<summary><b>Presentable</b></summary>
 
 ```text
 Use case: stylized-concept
@@ -51,7 +53,7 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 </details>
 
 <details>
-<summary><b>Half-cyborg</b></summary>
+<summary><b>Slightly Damaged</b></summary>
 
 ```text
 Use case: stylized-concept
@@ -69,7 +71,7 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 </details>
 
 <details>
-<summary><b>Battle mode</b></summary>
+<summary><b>Battle Stations</b></summary>
 
 ```text
 Use case: stylized-concept
@@ -85,6 +87,8 @@ Avoid: any text or numbers, name tags, neon signs, mirror chrome, floating torso
 ```
 
 </details>
+
+<sub>Painted by `microsoft/mai-image-2.6-flash`. I merely stood there looking confident.</sub>
 
 ## Division of labor
 
